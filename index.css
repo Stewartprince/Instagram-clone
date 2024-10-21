@@ -1,0 +1,196 @@
+/* General Styles */
+body {
+    font-family: 'Arima', sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Main Container for Avatar and Login Form */
+.main-container {
+    display: flex;
+    align-items: flex-start; /* Align avatar and login container to the top */
+    justify-content: center;
+    width: 80%;
+    max-width: 900px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+/* Avatar */
+.avatar {
+    width: 475px;
+    height: 650px;
+    margin-right: 40px;
+}
+
+/* Login Form Container with Outline */
+.login-container {
+    margin-top: 10px;
+    border: 2px solid #ccc; /* Outline for the login container */
+    padding: 20px;          /* Padding inside the container */
+    text-align: center;     /* Center the text inside the container */
+    width: 300px;           /* Set a fixed width for the container */
+    background-color: #fff; /* White background for the container */
+    transition: border-color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.login-container:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light background color on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+
+
+/* Instagram Title */
+h1 {
+    font-family: "Dancing Script", cursive; /* Instagram-like font */
+    font-size: 40px;
+    display: inline;
+    justify-content: center;
+    font-weight: 700;
+    margin-bottom: 50px; /* Space between title and input fields */
+}
+
+/* Input Fields */
+.input-field {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.input-field:hover{
+    background-color: rgba(255, 255, 255, 0.1); /* Light background color on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+/* Login Button */
+.login-btn {
+    width: 90%;
+    background-color: #3897f0;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.login-btn:hover {
+    background-color: #007bbf; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly increase size */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+
+/* Divider */
+.divider {
+    color: #8e8e8e;
+    font-size: 10px;
+    margin: 20px 0;
+}
+
+/* Facebook Button */
+.facebook-button {
+    width: 90%;
+    background-color: #385185;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.facebook-button:hover {
+    background-color: #314e72; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly increase size */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+
+/* Forgot Password */
+.forgot-password {
+    margin-top: 10px;
+    color: #385185;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Store Badges */
+.store-badge {
+    width: 135px;
+    margin: 5px;
+}
+
+/* Download Section Container */
+.container {
+    text-align: center;
+    padding: 20px;
+    width: 300px; /* Match the width to the login and signup containers */
+    background-color: #fff;
+    margin-top: 10px; /* Space between signup and container */
+    border-radius: 10px; /* Optional: add rounded corners */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.container:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+    transform: scale(1.05); /* Slightly increase size */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+
+/* Signup Container */
+.signup {
+    border: 2px solid #ccc; /* Outline for the signup container */
+    padding: 20px;          /* Padding inside the container */
+    text-align: center;     /* Center the text inside the container */
+    width: 300px;           /* Match the width to the login container */
+    background-color: #fff;
+    margin-top: 10px;       /* Space between login and signup */
+    font-size: medium;
+    font-weight: bold;
+}
+
+.signup:hover{
+    background-color: rgba(255, 255, 255, 0.1); /* Light background color on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+/* Signup Link Styles */
+.signup p {
+    margin: 0;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.signup h2 {
+    color: #3897f0;
+    margin: 5px 0 0;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer{
+    font-style: script;
+    color: #385185;
+}
+
+.logo{
+    
+    height: 50px;
+    display: inline;
+}
